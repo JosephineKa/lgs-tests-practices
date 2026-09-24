@@ -1,5 +1,23 @@
+# Virtual environment
 .venv/
+venv/
+
+# Python cache
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Pytest / coverage
 .pytest_cache/
-*.pyc
 .coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
